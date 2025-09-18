@@ -486,5 +486,5 @@ def download_csv(n_clicks, current_age, retirement_age, current_savings,
 if __name__ == '__main__':
     app.run(debug=True)
     
-    # Expose the server variable for gunicorn
-    server = app.server
+# Expose the server variable for gunicorn
+server = app.server
