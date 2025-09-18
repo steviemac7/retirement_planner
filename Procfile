@@ -1,1 +1,1 @@
-web: gunicorn dash_retirement_planner:app.server
+web: gunicorn dash_retirement_planner:server
